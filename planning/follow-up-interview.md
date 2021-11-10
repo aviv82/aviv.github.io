@@ -11,6 +11,7 @@
 ### personal details
 
 - has 1 child, not interested in having more children
+- went 'opposite way' in terms of career destination
 
 ### personal strengths in regards to technology
 
