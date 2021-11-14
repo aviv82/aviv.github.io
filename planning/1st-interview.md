@@ -1,47 +1,7 @@
-# 1st interview summary -sanne
+# Name Aviv
 
-## interview summary
+Born in Jerusalem had a typical childhood and went to join the military, after that Aviv found that he wanted to do something more creative, as he was painting all the time he applied for Art School to further his ambition. Art School changed him when he was introduced to video editing and doing graphics in media, this drew him and also pushed him in the direction of later on joining Hack Your Future to become a web developer. Aviv is working as a language teacher and coach next to studying at HYF, he enjoys following his students to see their growth, but he does not want to stay a teacher forever. He prefers the possibilities of a flexible schedule you can have when working in IT.
 
-- q: can i record our conversation?
+Aviv lived in Canada for 14 years, where he also met his wife and together the decided to move to Belgium last year. Coming to Belgium was not easy with Covid and not knowing the language, but Aviv saw HYF as a calling for him to study something that he is passionate about and would like to make it his career, he is a big fan of CSS so he thinks maybe front end would be a good fit, but he does not limit himself to that, he want to keep learning.
 
-  > yes.
-
-- q: tell me a bit about your BG (professional, academic, technical)
-
-  > Currently an independent business owner, gives spin lessons online, works
-  > additionally as PR for online companies (5 years xp). in past worked as
-  > flight attendant for 15 years.
-
-- q: Why/how did you get into these fields?
-
-  > Comes from pilot/attendant family. Enjoys teaching spin because classes are
-  > freeform and suitable to learners of varying BGs. likes working in PR for
-  > the opportunities of social media. Interested in new technologies, finds
-  > that they "make sense".
-
-- q: Why are you interested in making a change professionally?
-
-> left work as flight attendant to start a family. Interested in learning new
-> things.
-
-- q: What are your ambitions towards the future/future work?
-
-> Wants work/family life balance. Working mother. Prefers flexibility with
-> hours, ability to set on schedule. Can survive without work, but wants to
-> work. Gets bored when doing nothing.
-
-- q: What brought you to HYF?
-
-> Love of technology, self directed, likes learning by doing, trial and error.
-> Interested in the opportunities HYF brings, appreciates the professional
-> guidance.
-
-- q: How would you like to present yourself to the world?
-
-> Core values, Who I am, my strengths, can be used as portfolio - "fancy", shows
-> interests outside of work, keep simple
-
-- q: How would you like to express these things (theme/style)?
-
-> "Warm" website, somewhere you want to stay and explore, draws you in,
-> "Scandinavian" design, nice and crisp, clean lines.
+Aviv knew the very first day at HYF that he would like to become a coach after he is done. He thrives in helping people and to be able to give back.
