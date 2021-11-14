@@ -1,4 +1,4 @@
-# Name Aviv
+# Aviv 1st interview summary
 
 Born in Jerusalem had a typical childhood and went to join the military, after that Aviv found that he wanted to do something more creative, as he was painting all the time he applied for Art School to further his ambition. Art School changed him when he was introduced to video editing and doing graphics in media, this drew him and also pushed him in the direction of later on joining Hack Your Future to become a web developer. Aviv is working as a language teacher and coach next to studying at HYF, he enjoys following his students to see their growth, but he does not want to stay a teacher forever. He prefers the possibilities of a flexible schedule you can have when working in IT.
 
