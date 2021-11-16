@@ -46,7 +46,7 @@
 
 - there is a short intro section on `index.html`
 
-  - this will be developed as part of the nav bar on the `3-intro-text` branch
+  - this will be developed on `3-intro-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
@@ -56,8 +56,7 @@
 
 - there is a portfolio page on `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `4-portfolio-text`
-    branch
+  - this will be developed on `4-portfolio-text` branch
 
   - [ ] `html` use `a` for links
 
@@ -67,8 +66,7 @@
 
 - there are images on the portfolio page on `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `5-portfolio-images`
-    branch
+  - this will be developed on `5-portfolio-images` branch
 
   - [ ] `html` use `img` for images
 
@@ -78,7 +76,7 @@
 
 - there is a footer on `index.html` and `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `-footer-text` branch
+  - this will be developed on `6-footer-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
@@ -88,7 +86,7 @@
 
 - there is a skills section on `index.html`
 
-  - this will be developed as part of the nav bar on the `-skills-text` branch
+  - this will be developed on `8-skills-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
@@ -98,7 +96,7 @@
 
 - there is an about me section on `index.html`
 
-  - this will be developed on the `-about-me-text` branch
+  - this will be developed on the `10-about-me-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
@@ -110,7 +108,7 @@
 
 - there are coding language icons in the skills section on `index.html`
 
-  - this will be developed as part of the nav bar on the `-skills-icons` branch
+  - this will be developed as part of the nav bar on the `9-skills-icons` branch
 
   - [ ] `html` use `link` to reference icons
 
@@ -120,7 +118,7 @@
 
 - there are social media links on `index.html`
 
-  - this will be developed as part of the nav bar on the `-sm-links` branch
+  - this will be developed as part of the nav bar on the `11-sm-links` branch
 
   - [ ] `html` use `a` for social media links
 
@@ -130,7 +128,7 @@
 
 - there are social media icons on `index.html`
 
-  - this will be developed as part of the nav bar on the `-sm-icons` branch
+  - this will be developed as part of the nav bar on the `12-sm-icons` branch
 
   - [ ] `html` use `link` to reference icons
 
@@ -140,7 +138,7 @@
 
 - there is a footer on `index.html` and `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `-footer-form` branch
+  - this will be developed as part of the nav bar on the `7-footer-form` branch
 
   - [ ] `html` use `form` for form
 
