@@ -4,7 +4,18 @@
 
 ## Setup
 
-- standard html and css setup
+- standard html
+
+> as a user i want the website to be pretty
+
+- there is a cohesive design style on `index.html` `about.html` and
+  `portfolio.html`
+
+  - this will be developed as part of the nav bar on the `0-setup` branch
+
+  - [ ] `html` use `stylesheet` to reference `style.css`
+
+  - [ ] `css` use `:root` and `@font-face` to setup font and colour scheme
 
 ---
 
