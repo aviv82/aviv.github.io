@@ -10,7 +10,7 @@
 
 - there is a cohesive design style on `index.html` and `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `0-setup` branch
+  - this will be developed on `0-setup` branch
 
   - [ ] `html` use `stylesheet` to reference `style.css`
 
