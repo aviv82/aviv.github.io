@@ -8,8 +8,7 @@
 
 > as a user i want the website to be pretty
 
-- there is a cohesive design style on `index.html` `about.html` and
-  `portfolio.html`
+- there is a cohesive design style on `index.html` and `portfolio.html`
 
   - this will be developed as part of the nav bar on the `0-setup` branch
 
@@ -25,8 +24,7 @@
 
 > as a user i want to know what page i am on
 
-- there is a title to the webpage on top of `index.html` `about.html` and
-  `portfolio.html`
+- there is a title to the webpage on `index.html` and `portfolio.html`
 
   - this will be developed as part of the nav bar on the `1-title` branch
 
@@ -36,7 +34,7 @@
 
 > as a user i want to be able to find what i need on the page
 
-- there is a navigation bar on `index.html` `about.html` and `portfolio.html`
+- there is a navigation bar on `index.html` and `portfolio.html`
 
   - this will be developed as part of the nav bar on the `2-nav-bar` branch
 
@@ -44,11 +42,21 @@
 
   - [ ] `css` use `links` class
 
+> as a user i want to be greeted to the site
+
+- there is a short intro section on `index.html`
+
+  - this will be developed as part of the nav bar on the `3-intro-text` branch
+
+  - [ ] `html` use `h1` and `p` for text
+
+  - [ ] `css` use `intro` class
+
 > as a user i want to know about the developer's past work
 
 - there is a portfolio page on `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `3-portfolio-text`
+  - this will be developed as part of the nav bar on the `4-portfolio-text`
     branch
 
   - [ ] `html` use `a` for links
@@ -59,7 +67,7 @@
 
 - there are images on the portfolio page on `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `4-portfolio-images`
+  - this will be developed as part of the nav bar on the `5-portfolio-images`
     branch
 
   - [ ] `html` use `img` for images
@@ -68,19 +76,19 @@
 
 > as a user i want to be able to get contact info
 
-- there is a footer on `index.html` `portfolio.html` and `about.html`
+- there is a footer on `index.html` and `portfolio.html`
 
-  - this will be developed as part of the nav bar on the `-footer` branch
+  - this will be developed as part of the nav bar on the `-footer-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
-  - [ ] `css` use `footer__par` class
+  - [ ] `css` use `footer__text` class
 
 > as a user i want to see what the developer can do
 
 - there is a skills section on `index.html`
 
-  - this will be developed as part of the nav bar on the `-skills` branch
+  - this will be developed as part of the nav bar on the `-skills-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
@@ -88,24 +96,13 @@
 
 > as a user i want to read about the developer
 
-- there is an about me page on `about.html`
+- there is an about me section on `index.html`
 
-  - this will be developed as part of the nav bar on the `-about-me` branch
+  - this will be developed on the `-about-me-text` branch
 
   - [ ] `html` use `h1` and `p` for text
 
   - [ ] `css` use `about__text` class
-
-> as a user i want to see the developer
-
-- there is a picture on the header in `index.html` `portfolio.html` and
-  `about.html`
-
-  - this will be developed as part of the nav bar on the `-header-image` branch
-
-  - [ ] `html` use `img` for the picture
-
-  - [ ] `css` use `header__img` class
 
 ### should have
 
@@ -139,26 +136,12 @@
 
   - [ ] `css` use `sm__icons` class
 
-### Logic: user story
+> as a user i want to be able to message the developer
 
-- a logic task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- there is a footer on `index.html` and `portfolio.html`
 
-### Interface: user story
+  - this will be developed as part of the nav bar on the `-footer-form` branch
 
-- an interface task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+  - [ ] `html` use `form` for form
 
-### Interaction: user story
-
-- an interaction task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a documentation task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+  - [ ] `css` use `footer__form` class
