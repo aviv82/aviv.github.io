@@ -1,4 +1,4 @@
-# development strategy - sanne homepage
+# development strategy
 
 ---
 
