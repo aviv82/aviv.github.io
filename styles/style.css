@@ -1,3 +1,25 @@
-.class {
-  color: aqua;
+:root {
+  --poem-font: "Estonia", cursive;
+  --paragraph-font: "Libre Baskerville", serif;
+  --coffee-black: rgba(34, 23, 0, 1);
+  --coffee-dark: rgba(118, 80, 0, 1);
+  --coffee-bright: rgba(226, 153, 1, 1);
+  --coffee-white: rgba(255, 254, 251, 1);
+  /* setup colour schemes and font families for pages */
+}
+
+html {
+  font-size: 62.5%;
+  /* set 1rem to 10px */
+}
+
+.text {
+  font-family: var(--poem-font);
+  font-size: 4rem;
+  color: var(--coffee-dark);
+}
+.gross {
+  font-family: var(--poem-font);
+  font-size: 40px;
+  color: var(--coffee-bright);
 }
