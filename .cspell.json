@@ -1,10 +1,6 @@
 {
   "language": "en",
-  "words": [
-    "DROR",
-    "preconnect",
-    "sanne"
-  ],
+  "words": ["DROR", "preconnect", "sanne"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",

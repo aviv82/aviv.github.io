@@ -5,11 +5,13 @@
   --coffee-dark: rgba(118, 80, 0, 1);
   --coffee-bright: rgba(226, 153, 1, 1);
   --coffee-white: rgba(255, 254, 251, 1);
+
   /* setup colour schemes and font families for pages */
 }
 
 html {
   font-size: 62.5%;
+
   /* set 1rem to 10px */
 }
 
@@ -18,6 +20,7 @@ html {
   font-size: 4rem;
   color: var(--coffee-dark);
 }
+
 .gross {
   font-family: var(--poem-font);
   font-size: 40px;
