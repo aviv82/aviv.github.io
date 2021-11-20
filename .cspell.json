@@ -1,9 +1,6 @@
 {
   "language": "en",
-  "words": [
-    "DROR",
-    "sanne"
-  ],
+  "words": ["DROR", "sanne"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
