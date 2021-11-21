@@ -5,41 +5,81 @@
   --coffee-dark: rgba(118, 80, 0, 1);
   --coffee-bright: rgba(226, 153, 1, 1);
   --coffee-white: rgba(255, 254, 251, 1);
+
   /* setup colour schemes and font families for pages */
 }
+
 body {
   margin: 0;
+
   /* cancel auto layout margins */
 }
 
 html {
+  scroll-behavior: smooth;
+
+  /* ^ set scroll in-page to smooth */
   font-size: 62.5%;
-  /* set 1rem to 10px */
+
+  /* ^ set 1rem to 10px */
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1),
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1),
+      rgba(118, 80, 0, 1)
+    );
+
   /* setup background gradient */
 }
+
 /* intro poem */
 .ipoem {
   font-family: var(--poem-font);
   color: var(--coffee-black);
   display: flex;
   justify-content: center;
+
   /* setup flex display and font for intro poem */
 }
+
 .ipoem__txt {
   font-size: 2rem;
   line-height: 1.8rem;
   animation: ipoem-load 4000ms ease-in 200ms;
+
+  /* ^ poem animation settings */
   opacity: 0;
   animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__md {
+  font-size: 2.6rem;
+
+  /* middle poem font size */
+}
+
+.ipoem__lg {
+  font-size: 3rem;
+
+  /* large poem font size */
+}
+
+.ipoem__th {
+  font-size: 3.4rem;
+
+  /* quotations size */
+}
+
+.ipoem__itl {
+  font-style: italic;
+
+  /* poem name italics */
 }
 
 @keyframes ipoem-load {
@@ -50,20 +90,105 @@ html {
   100% {
     opacity: 100;
   }
-}
-.ipoem__md {
-  font-size: 2.6rem;
+
+  /* poem animation keyframes */
 }
 
-.ipoem__lg {
-  font-size: 3rem;
-}
-
-.ipoem__th {
-  font-size: 3.4rem;
-}
-
-.ipoem__itl {
-  font-style: italic;
-}
 /* intro poem */
+
+/* nav bar */
+.navbar {
+  font-family: var(--paragraph-font);
+  font-style: normal;
+  display: flex;
+  padding: 6rem;
+  justify-content: center;
+
+  /* ^ nav bar settings */
+}
+
+.navbar__pri {
+  color: var(--coffee-white);
+  text-decoration: none;
+  background-color: var(--coffee-black);
+  font-size: 2rem;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  border-radius: 50%;
+  border: var(--coffee-black) solid;
+  margin-right: 4%;
+
+  /* ^ nav bar primary button settings */
+  animation: nav-bar-load 2000ms ease-out 2000ms;
+  opacity: 0%;
+  scale: 0;
+  animation-fill-mode: forwards;
+
+  /* ^ nav bar primary button animation settings */
+}
+
+.navbar__pri:hover {
+  background-color: var(--coffee-brown);
+
+  /* nav bar primary button hover settings */
+}
+
+.navbar__pri:active {
+  color: var(--coffee-black);
+  background-color: var(--coffee-bright);
+  border: var(--coffee-bright) solid;
+
+  /* nav bar primary button active settings */
+}
+
+.navbar__sec {
+  color: var(--coffee-black);
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: var(--coffee-black) solid;
+  border-radius: 50%;
+
+  /* ^ nav bar secondary button settings */
+  animation: nav-bar-load 2000ms ease-out 2000ms;
+  opacity: 0%;
+  scale: 0;
+  animation-fill-mode: forwards;
+
+  /* ^ nav bar secondary button animation settings */
+}
+
+.navbar__sec:hover {
+  background-color: var(--coffee-bright);
+
+  /* nav bar secondary button hover settings */
+}
+
+.navbar__sec:active {
+  color: var(--coffee-white);
+  background-color: var(--coffee-dark);
+  border: var(--coffee-bright) solid;
+
+  /* nav bar secondary button active settings */
+}
+
+@keyframes nav-bar-load {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 100;
+    transform: scale(1);
+  }
+
+  /* ^ nav bar buttons animation keyframes */
+}
+
+/* nav bar */
