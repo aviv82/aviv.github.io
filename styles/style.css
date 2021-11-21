@@ -5,24 +5,65 @@
   --coffee-dark: rgba(118, 80, 0, 1);
   --coffee-bright: rgba(226, 153, 1, 1);
   --coffee-white: rgba(255, 254, 251, 1);
-
   /* setup colour schemes and font families for pages */
+}
+body {
+  margin: 0;
+  /* cancel auto layout margins */
 }
 
 html {
   font-size: 62.5%;
-
   /* set 1rem to 10px */
 }
 
-.text {
+.home {
+  background: linear-gradient(
+    180deg,
+    rgba(226, 153, 1, 1),
+    rgba(255, 254, 251, 1),
+    rgba(118, 80, 0, 1)
+  );
+  /* setup background gradient */
+}
+/* intro poem */
+.ipoem {
   font-family: var(--poem-font);
-  font-size: 4rem;
-  color: var(--coffee-dark);
+  color: var(--coffee-black);
+  display: flex;
+  justify-content: center;
+  /* setup flex display and font for intro poem */
+}
+.ipoem__txt {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  animation: ipoem-load 4000ms ease-in 200ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
-.gross {
-  font-family: var(--poem-font);
-  font-size: 40px;
-  color: var(--coffee-bright);
+@keyframes ipoem-load {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
 }
+.ipoem__md {
+  font-size: 2.6rem;
+}
+
+.ipoem__lg {
+  font-size: 3rem;
+}
+
+.ipoem__th {
+  font-size: 3.4rem;
+}
+
+.ipoem__itl {
+  font-style: italic;
+}
+/* intro poem */
