@@ -25,12 +25,13 @@ html {
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1),
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1),
+      rgba(118, 80, 0, 1)
+    );
 
   /* setup background gradient */
 }
@@ -99,19 +100,21 @@ html {
 .navbar {
   font-family: var(--paragraph-font);
   font-style: normal;
+
   /* background: radial-gradient(
     rgba(255, 254, 251, 1) 32%,
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background: linear-gradient(
-    rgba(255, 254, 251, 0),
-    rgba(255, 254, 251, 0.8),
-    30%,
-    rgba(255, 254, 251, 1),
-    rgba(255, 254, 251, 0.8) 80%,
-    rgba(255, 254, 251, 0)
-  );
+  background:
+    linear-gradient(
+      rgba(255, 254, 251, 0),
+      rgba(255, 254, 251, 0.8),
+      30%,
+      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 0.8) 80%,
+      rgba(255, 254, 251, 0)
+    );
   display: flex;
   padding: 4rem;
   justify-content: center;
@@ -204,7 +207,9 @@ html {
 
   /* ^ nav bar buttons animation keyframes */
 }
+
 /* nav bar */
+
 /* intro section */
 .isec {
   font-family: var(--paragraph-font);
@@ -212,37 +217,49 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* general settings for the intro section */
 }
+
 .isec__1 {
   font-size: 120%;
   margin-right: 8%;
   padding-bottom: 2%;
+
   /* specific settings for line 1 */
 }
+
 .isec__2 {
   margin-left: 4%;
   padding-bottom: 0.4%;
+
   /* specific settings for line 2 */
 }
+
 .isec__3 {
   font-size: 160%;
   margin-left: 20%;
   margin-top: -0.2%;
+
   /* specific settings for line 3 */
 }
+
 .isec__4 {
   margin-right: 22.8%;
   margin-bottom: -2.8%;
+
   /* specific settings for line 4 */
 }
+
 .isec__5 {
   transform: scale(0.4);
+
   /* ^ specific settings for line 5 */
 
   stroke-dasharray: 20rem;
   stroke-dashoffset: 20rem;
   animation: first-amp-line 2000ms ease-in-out forwards 400ms;
+
   /* ^ animation settings for line 5 */
 }
 
@@ -250,67 +267,92 @@ html {
   from {
     fill: transparent;
   }
+
   to {
     stroke-dashoffset: 0;
     fill: var(--coffee-black);
   }
+
   /* keyframe settings for line 5 */
 }
+
 .isec__6 {
   margin-left: 36%;
   margin-top: -5.4%;
+
   /* specific settings for line 6 */
 }
+
 .isec__7 {
   font-size: 128%;
   margin-top: 6.8%;
   margin-bottom: 10%;
+
   /* specific settings for line 7 */
 }
+
 .isec__8 {
   margin-left: 14%;
+
   /* specific settings for line 8 */
 }
+
 .isec__9 {
   margin-left: 56%;
+
   /* specific settings for line 9 */
 }
+
 .isec__10 {
   font-size: 180%;
   margin-left: 68%;
+
   /* specific settings for line 10 */
 }
+
 .isec__11 {
   margin-right: 68%;
   margin-top: 16%;
+
   /* specific settings for line 11 */
 }
+
 .isec__12 {
   margin-right: 24%;
   margin-top: 1%;
+
   /* specific settings for line 12 */
 }
+
 .isec__12__b {
   font-size: 120%;
+
   /* specific settings for 2nd section of line 12 */
 }
+
 .isec__13 {
   font-size: 140%;
   margin-top: -0.2%;
+
   /* specific settings for line 13 */
 }
+
 .isec__14 {
   margin-left: -20%;
+
   /* specific settings for line 14 */
 }
+
 .isec__15 {
   transform: scale(0.6);
   margin-top: 2%;
   margin-left: 4%;
+
   /* ^ specific settings for line 15 */
   stroke-dasharray: 20rem;
   stroke-dashoffset: 20rem;
   animation: second-amp-line 2000ms ease-in-out forwards 400ms;
+
   /* ^ animation settings for line 15 */
 }
 
@@ -318,18 +360,23 @@ html {
   from {
     fill: transparent;
   }
+
   to {
     stroke-dashoffset: 0;
     fill: var(--coffee-black);
   }
+
   /* keyframe settings for line 15 */
 }
+
 .isec__16 {
   font-size: 140%;
   margin-top: 8%;
   margin-bottom: 40%;
+
   /* specific settings for line 16 */
 }
+
 .navbar__sec__2 {
   color: var(--coffee-black);
   font-size: 1.8rem;
@@ -363,6 +410,7 @@ html {
 
   /* 2nd nav bar secondary button active settings */
 }
+
 @keyframes sec-nav-bar-load {
   0% {
     opacity: 0;
@@ -376,24 +424,33 @@ html {
 
   /* ^ 2nd nav bar buttons animation keyframes */
 }
+
 .isec__17 {
   margin-top: 40%;
   font-size: 160%;
   font-style: italic;
+
   /* specific settings for line 17 */
 }
+
 .isec__18 {
   margin-left: 26%;
   margin-top: -2%;
+
   /* specific settings for line 18 */
 }
+
 .isec__19 {
   font-size: 140%;
   margin-left: 60%;
+
   /* specific settings for line 19 */
 }
+
 .isec__20 {
   font-size: 180%;
+
   /* specific settings for line 20 */
 }
+
 /* intro section */
