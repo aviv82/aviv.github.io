@@ -25,13 +25,12 @@ html {
 }
 
 .home {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(226, 153, 1, 1),
-      rgba(255, 254, 251, 1),
-      rgba(118, 80, 0, 1)
-    );
+  background: linear-gradient(
+    180deg,
+    rgba(226, 153, 1, 1),
+    rgba(255, 254, 251, 1),
+    rgba(118, 80, 0, 1)
+  );
 
   /* setup background gradient */
 }
@@ -100,9 +99,24 @@ html {
 .navbar {
   font-family: var(--paragraph-font);
   font-style: normal;
+  /* background: radial-gradient(
+    rgba(255, 254, 251, 1) 32%,
+    rgba(255, 254, 251, 0) 64%
+  ); */
+  z-index: 2;
+  background: linear-gradient(
+    rgba(255, 254, 251, 0),
+    rgba(255, 254, 251, 0.8),
+    30%,
+    rgba(255, 254, 251, 1),
+    rgba(255, 254, 251, 0.8) 80%,
+    rgba(255, 254, 251, 0)
+  );
   display: flex;
-  padding: 6rem;
+  padding: 4rem;
   justify-content: center;
+  position: sticky;
+  top: 0;
 
   /* ^ nav bar settings */
 }
@@ -190,5 +204,63 @@ html {
 
   /* ^ nav bar buttons animation keyframes */
 }
-
 /* nav bar */
+/* intro section */
+.isec {
+  font-family: var(--paragraph-font);
+  color: var(--coffee-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.isec__1 {
+  font-size: 120%;
+  margin-right: 8%;
+  padding-bottom: 2%;
+}
+.isec__2 {
+  margin-left: 4%;
+  padding-bottom: 0.4%;
+}
+.isec__3 {
+  font-size: 160%;
+  margin-left: 20%;
+  margin-top: -0.2%;
+}
+.isec__4 {
+  margin-right: 22.8%;
+  margin-bottom: -2.8%;
+}
+.isec__5 {
+  transform: scale(0.4);
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  animation: amp-line 2000ms ease-in-out forwards 400ms;
+}
+
+@keyframes amp-line {
+  from {
+    fill: transparent;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill: var(--coffee-black);
+  }
+}
+.isec__6 {
+  margin-left: 36%;
+  margin-top: -5.4%;
+}
+.isec__7 {
+  font-size: 128%;
+  margin-top: 6.8%;
+  margin-bottom: 10%;
+}
+.isec__8 {
+  margin-left: 14%;
+}
+.isec__9 {
+  margin-left: 56%;
+}
+
+/* intro section */
