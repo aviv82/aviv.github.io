@@ -221,6 +221,14 @@ html {
   /* general settings for the intro section */
 }
 
+@media (min-width: 768px) {
+  .isec {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 200%;
+  }
+}
+
 .isec__1 {
   font-size: 120%;
   margin-right: 8%;
@@ -253,32 +261,10 @@ html {
 
 .isec__5 {
   transform: scale(0.4);
-
-  /* ^ specific settings for line 5 */
-
-  stroke-dasharray: 20rem;
-  stroke-dashoffset: 20rem;
-  animation: first-amp-line 2000ms ease-in-out forwards 400ms;
-
-  /* ^ animation settings for line 5 */
-}
-
-@keyframes first-amp-line {
-  from {
-    fill: transparent;
-  }
-
-  to {
-    stroke-dashoffset: 0;
-    fill: var(--coffee-black);
-  }
-
-  /* keyframe settings for line 5 */
 }
 
 .isec__6 {
   margin-left: 36%;
-  margin-top: -5.4%;
 
   /* specific settings for line 6 */
 }
@@ -304,11 +290,21 @@ html {
 }
 
 .isec__10 {
+
+}
+
+/* .isec__10 {
   font-size: 180%;
   margin-left: 68%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-radius: 50%;
+  border: var(--coffee-black) 0.1rem solid;
+  stroke-dasharray: 0.4rem; */
 
-  /* specific settings for line 10 */
-}
+/* specific settings for line 10 */
 
 .isec__11 {
   margin-right: 68%;
@@ -453,4 +449,129 @@ html {
   /* specific settings for line 20 */
 }
 
+.hide {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: all 3000ms ease-in-out;
+}
+
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.inanimate {
+  transform: translateY(1rem) scale(0.4);
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 3000ms ease-in-out 1000ms;
+}
+
+.animate {
+  transform: translateY(0) scale(0.48);
+  stroke-dashoffset: 0;
+  fill: var(--coffee-black);
+}
+
+.beau {
+  transform: translateY(1rem);
+  transition: all 3000ms ease-in-out 1000ms;
+}
+
+.beauty {
+  transform: translateY(0);
+}
+
+.beau path:nth-child(1) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out;
+}
+
+.beauty path:nth-child(1) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(2) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 400ms;
+}
+
+.beauty path:nth-child(2) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(3) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 800ms;
+}
+
+.beauty path:nth-child(3) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(4) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1200ms;
+}
+
+.beauty path:nth-child(4) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(5) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1600ms;
+}
+
+.beauty path:nth-child(5) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(6) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2000ms;
+}
+
+.beauty path:nth-child(6) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(7) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2400ms;
+}
+
+.beauty path:nth-child(7) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(8) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2800ms;
+}
+
+.beauty path:nth-child(8) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(9) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 3200ms;
+}
+
+.beauty path:nth-child(9) {
+  stroke-dashoffset: 0;
+}
+
 /* intro section */
+}
