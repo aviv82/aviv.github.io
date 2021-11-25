@@ -25,12 +25,13 @@ html {
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1),
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1),
+      rgba(118, 80, 0, 1)
+    );
 
   /* setup background gradient */
 }
@@ -105,14 +106,15 @@ html {
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background: linear-gradient(
-    rgba(255, 254, 251, 0),
-    rgba(255, 254, 251, 0.8),
-    30%,
-    rgba(255, 254, 251, 1),
-    rgba(255, 254, 251, 0.8) 80%,
-    rgba(255, 254, 251, 0)
-  );
+  background:
+    linear-gradient(
+      rgba(255, 254, 251, 0),
+      rgba(255, 254, 251, 0.8),
+      30%,
+      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 0.8) 80%,
+      rgba(255, 254, 251, 0)
+    );
   display: flex;
   padding: 4rem;
   justify-content: center;
