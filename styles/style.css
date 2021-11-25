@@ -547,7 +547,7 @@ html {
   transition: linear 2000ms 1000ms;
 }
 
-.inline path {
+.inline path:nth-child(1) {
   stroke-dasharray: 0;
 }
 
