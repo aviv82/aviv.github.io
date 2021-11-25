@@ -290,13 +290,16 @@ html {
 .isec__10 {
   margin-left: 68%;
 }
+
 .isec__11__a {
   margin-top: 4%;
   margin-left: 6%;
   transform: rotate(-6deg);
 }
+
 .isec__11 {
   margin-right: 68%;
+
   /* specific settings for line 11 */
 }
 
@@ -326,13 +329,6 @@ html {
   /* specific settings for line 14 */
 }
 
-.isec__15 {
-  margin-top: 2%;
-  margin-left: 4%;
-
-  /* ^ specific settings for line 15 */
-}
-
 .isec__16 {
   position: relative;
   font-size: 180%;
@@ -342,6 +338,7 @@ html {
 
   /* specific settings for line 16 */
 }
+
 .isec__16__a {
   color: transparent;
   position: absolute;
@@ -349,8 +346,10 @@ html {
   background-color: var(--coffee-black);
   height: 0.2rem;
   bottom: -0.8rem;
+
   /* specific settings for line 16 */
 }
+
 .isec__16__b {
   font-size: 200%;
   position: absolute;
@@ -359,6 +358,7 @@ html {
   margin-top: 20%;
   border-left: dashed var(--coffee-black) 0.6rem;
 }
+
 .isec__17 {
   margin-top: 40%;
   font-size: 160%;
@@ -366,6 +366,7 @@ html {
 
   /* specific settings for line 17 */
 }
+
 .isec__18 {
   margin-left: 26%;
   margin-top: -2%;
@@ -515,22 +516,27 @@ html {
   opacity: 0;
   transition: all 4000ms ease-in-out;
 }
+
 .circle {
   opacity: 1;
   transform: translateY(0);
 }
+
 .circ circle {
   stroke-dasharray: 20rem;
   stroke-dashoffset: 20rem;
   transition: all 2000ms 2000ms;
 }
+
 .circle circle {
-  stroke-dasharray: 0rem;
+  stroke-dasharray: 0;
 }
+
 .line {
   opacity: 0;
   transition: all 4000ms ease-in-out;
 }
+
 .inline {
   opacity: 1;
 }
@@ -540,28 +546,37 @@ html {
   stroke-dashoffset: 20rem;
   transition: linear 2000ms 1000ms;
 }
+
 .inline path {
-  stroke-dasharray: 0rem;
+  stroke-dasharray: 0;
 }
+
 .isec__15 {
+  margin-top: 2%;
+  margin-left: 4%;
   transform: scale(0.6);
 }
+
 .under {
   width: 0;
   opacity: 0;
   transition: linear 2000ms 1000ms;
 }
+
 .underscore {
   opacity: 1;
   width: 100%;
 }
+
 .dot {
   padding-top: 0.1rem;
   opacity: 0;
   transition: all 2000ms ease-in-out 1000ms;
 }
+
 .dotted {
   opacity: 1;
   padding-top: 12rem;
 }
+
 /* intro section */
