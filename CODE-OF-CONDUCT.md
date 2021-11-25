@@ -69,7 +69,8 @@ the consequences for any action they deem in violation of this Code of Conduct:
 
 ### 1. Correction
 
-**Consequence**: If rules are not followed you will be permanently banned from the site
+**Consequence**: Those who violate the rules will be permanently banned from
+the site
 
 ### 2. Permanent Ban
 
