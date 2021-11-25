@@ -147,7 +147,7 @@ html {
 }
 
 .navbar__pri:hover {
-  background-color: var(--coffee-brown);
+  background-color: var(--coffee-dark);
 
   /* nav bar primary button hover settings */
 }
@@ -293,6 +293,9 @@ html {
   margin-left: 68%;
 }
 
+/* intro section */
+
+/* about me section */
 .isec__11__a {
   margin-top: 4%;
   margin-left: 6%;
@@ -362,7 +365,7 @@ html {
 }
 
 .isec__17 {
-  margin-top: 40%;
+  margin-top: 30rem;
   font-size: 160%;
   font-style: italic;
 
@@ -389,6 +392,89 @@ html {
   /* specific settings for line 20 */
 }
 
+/* about me section */
+
+/* footer */
+.form {
+  display: flex;
+  padding-bottom: 10%;
+  justify-content: center;
+}
+
+.form__detail {
+  position: relative;
+  width: 40%;
+}
+
+.form__detail ::placeholder {
+  color: var(--coffee-dark);
+}
+
+.form input {
+  background-color: var(--coffee-white);
+  margin: 2%;
+  appearance: none;
+  font-style: italic;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-family: var(--paragraph-font);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.form input:hover {
+  border: var(--coffee-bright) 0.4rem solid;
+  padding: 0.6rem;
+}
+
+.form__detail__name {
+  width: 48%;
+}
+
+.form__detail__email {
+  width: 60%;
+}
+
+.form__detail__mes {
+  width: 100%;
+  height: 60%;
+}
+
+.form__detail__but {
+  color: var(--coffee-white);
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  background-color: var(--coffee-black);
+  font-size: 2rem;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  border-radius: 50%;
+  border: var(--coffee-black) solid;
+  margin-left: 44%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.form__detail__but:hover {
+  background-color: var(--coffee-dark);
+
+  /* footer primary button hover settings */
+}
+
+.form__detail__but:active {
+  color: var(--coffee-black);
+  background-color: var(--coffee-bright);
+  border: var(--coffee-bright) solid;
+
+  /* footer primary button active settings */
+}
+
+/* footer */
+
+/* animation */
 .hide {
   opacity: 0;
   transform: translateY(1rem);
@@ -578,7 +664,7 @@ html {
 
 .dotted {
   opacity: 1;
-  padding-top: 12rem;
+  padding-top: 16rem;
 }
 
-/* intro section */
+/* animation */
