@@ -51,3 +51,72 @@ function beau() {
     }
   }
 }
+window.addEventListener("scroll", circ);
+
+function circ() {
+  var circ = document.querySelectorAll(".circ");
+
+  for (var i = 0; i < circ.length; i++) {
+    var windowheight = window.innerHeight;
+    var circtop = circ[i].getBoundingClientRect().top;
+    var circpoint = 200;
+
+    if (circtop < windowheight - circpoint) {
+      circ[i].classList.add("circle");
+    } else {
+      circ[i].classList.remove("circle");
+    }
+  }
+}
+
+window.addEventListener("scroll", line);
+
+function line() {
+  var line = document.querySelectorAll(".line");
+
+  for (var i = 0; i < line.length; i++) {
+    var windowheight = window.innerHeight;
+    var linetop = line[i].getBoundingClientRect().top;
+    var linepoint = 220;
+
+    if (linetop < windowheight - linepoint) {
+      line[i].classList.add("inline");
+    } else {
+      line[i].classList.remove("inline");
+    }
+  }
+}
+window.addEventListener("scroll", under);
+
+function under() {
+  var under = document.querySelectorAll(".under");
+
+  for (var i = 0; i < under.length; i++) {
+    var windowheight = window.innerHeight;
+    var undertop = under[i].getBoundingClientRect().top;
+    var underpoint = 200;
+
+    if (undertop < windowheight - underpoint) {
+      under[i].classList.add("underscore");
+    } else {
+      under[i].classList.remove("underscore");
+    }
+  }
+}
+window.addEventListener("scroll", dot);
+
+function dot() {
+  var dot = document.querySelectorAll(".dot");
+
+  for (var i = 0; i < dot.length; i++) {
+    var windowheight = window.innerHeight;
+    var dottop = dot[i].getBoundingClientRect().top;
+    var dotpoint = 200;
+
+    if (dottop < windowheight - dotpoint) {
+      dot[i].classList.add("dotted");
+    } else {
+      dot[i].classList.remove("dotted");
+    }
+  }
+}
