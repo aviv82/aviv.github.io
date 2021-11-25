@@ -221,6 +221,14 @@ html {
   /* general settings for the intro section */
 }
 
+@media (min-width: 768px) {
+  .isec {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 200%;
+  }
+}
+
 .isec__1 {
   font-size: 120%;
   margin-right: 8%;
@@ -253,32 +261,10 @@ html {
 
 .isec__5 {
   transform: scale(0.4);
-
-  /* ^ specific settings for line 5 */
-
-  stroke-dasharray: 20rem;
-  stroke-dashoffset: 20rem;
-  animation: first-amp-line 2000ms ease-in-out forwards 400ms;
-
-  /* ^ animation settings for line 5 */
-}
-
-@keyframes first-amp-line {
-  from {
-    fill: transparent;
-  }
-
-  to {
-    stroke-dashoffset: 0;
-    fill: var(--coffee-black);
-  }
-
-  /* keyframe settings for line 5 */
 }
 
 .isec__6 {
   margin-left: 36%;
-  margin-top: -5.4%;
 
   /* specific settings for line 6 */
 }
@@ -304,15 +290,17 @@ html {
 }
 
 .isec__10 {
-  font-size: 180%;
   margin-left: 68%;
+}
 
-  /* specific settings for line 10 */
+.isec__11__a {
+  margin-top: 4%;
+  margin-left: 6%;
+  transform: rotate(-6deg);
 }
 
 .isec__11 {
   margin-right: 68%;
-  margin-top: 16%;
 
   /* specific settings for line 11 */
 }
@@ -343,86 +331,34 @@ html {
   /* specific settings for line 14 */
 }
 
-.isec__15 {
-  transform: scale(0.6);
-  margin-top: 2%;
-  margin-left: 4%;
-
-  /* ^ specific settings for line 15 */
-  stroke-dasharray: 20rem;
-  stroke-dashoffset: 20rem;
-  animation: second-amp-line 2000ms ease-in-out forwards 400ms;
-
-  /* ^ animation settings for line 15 */
-}
-
-@keyframes second-amp-line {
-  from {
-    fill: transparent;
-  }
-
-  to {
-    stroke-dashoffset: 0;
-    fill: var(--coffee-black);
-  }
-
-  /* keyframe settings for line 15 */
-}
-
 .isec__16 {
-  font-size: 140%;
+  position: relative;
+  font-size: 180%;
   margin-top: 8%;
-  margin-bottom: 40%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
 
   /* specific settings for line 16 */
 }
 
-.navbar__sec__2 {
-  color: var(--coffee-black);
-  font-size: 1.8rem;
-  text-decoration: none;
-  padding-top: 3.4rem;
-  padding-bottom: 3.4rem;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
-  border: var(--coffee-black) solid;
-  border-radius: 50%;
+.isec__16__a {
+  color: transparent;
+  position: absolute;
+  content: "";
+  background-color: var(--coffee-black);
+  height: 0.2rem;
+  bottom: -0.8rem;
 
-  /* ^ 2nd nav bar secondary button settings */
-  animation: sec-nav-bar-load 2000ms ease-out 2000ms;
-  opacity: 0%;
-  scale: 0;
-  animation-fill-mode: forwards;
-
-  /* ^ 2nd nav bar secondary button animation settings */
+  /* specific settings for line 16 */
 }
 
-.navbar__sec__2:hover {
-  background-color: var(--coffee-bright);
-
-  /* 2nd nav bar secondary button hover settings */
-}
-
-.navbar__sec__2:active {
-  color: var(--coffee-white);
-  background-color: var(--coffee-dark);
-  border: var(--coffee-bright) solid;
-
-  /* 2nd nav bar secondary button active settings */
-}
-
-@keyframes sec-nav-bar-load {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-  100% {
-    opacity: 100;
-    transform: scale(1);
-  }
-
-  /* ^ 2nd nav bar buttons animation keyframes */
+.isec__16__b {
+  font-size: 200%;
+  position: absolute;
+  color: transparent;
+  margin-left: 40%;
+  margin-top: 20%;
+  border-left: dashed var(--coffee-black) 0.6rem;
 }
 
 .isec__17 {
@@ -451,6 +387,198 @@ html {
   font-size: 180%;
 
   /* specific settings for line 20 */
+}
+
+.hide {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: all 3000ms ease-in-out;
+}
+
+.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.inanimate {
+  transform: translateY(1rem) scale(0.4);
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 3000ms ease-in-out 1000ms;
+}
+
+.animate {
+  transform: translateY(0) scale(0.48);
+  stroke-dashoffset: 0;
+  fill: var(--coffee-black);
+}
+
+.beau {
+  transform: translateY(1rem);
+  transition: all 3000ms ease-in-out 1000ms;
+}
+
+.beauty {
+  transform: translateY(0);
+}
+
+.beau path:nth-child(1) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out;
+}
+
+.beauty path:nth-child(1) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(2) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 400ms;
+}
+
+.beauty path:nth-child(2) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(3) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 800ms;
+}
+
+.beauty path:nth-child(3) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(4) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1200ms;
+}
+
+.beauty path:nth-child(4) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(5) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1600ms;
+}
+
+.beauty path:nth-child(5) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(6) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2000ms;
+}
+
+.beauty path:nth-child(6) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(7) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2400ms;
+}
+
+.beauty path:nth-child(7) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(8) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2800ms;
+}
+
+.beauty path:nth-child(8) {
+  stroke-dashoffset: 0;
+}
+
+.beau path:nth-child(9) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 3200ms;
+}
+
+.beauty path:nth-child(9) {
+  stroke-dashoffset: 0;
+}
+
+.circ {
+  transform: translateY(1rem);
+  opacity: 0;
+  transition: all 4000ms ease-in-out;
+}
+
+.circle {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.circ circle {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 2000ms 2000ms;
+}
+
+.circle circle {
+  stroke-dasharray: 0;
+}
+
+.line {
+  opacity: 0;
+  transition: all 4000ms ease-in-out;
+}
+
+.inline {
+  opacity: 1;
+}
+
+.line path:nth-child(1) {
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: linear 2000ms 1000ms;
+}
+
+.inline path:nth-child(1) {
+  stroke-dasharray: 0;
+}
+
+.isec__15 {
+  margin-top: 2%;
+  margin-left: 4%;
+  transform: scale(0.6);
+}
+
+.under {
+  width: 0;
+  opacity: 0;
+  transition: linear 2000ms 1000ms;
+}
+
+.underscore {
+  opacity: 1;
+  width: 100%;
+}
+
+.dot {
+  padding-top: 0.1rem;
+  opacity: 0;
+  transition: all 2000ms ease-in-out 1000ms;
+}
+
+.dotted {
+  opacity: 1;
+  padding-top: 12rem;
 }
 
 /* intro section */
