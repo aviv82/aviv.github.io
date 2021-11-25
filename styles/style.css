@@ -25,12 +25,13 @@ html {
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1),
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1),
+      rgba(118, 80, 0, 1)
+    );
 
   /* setup background gradient */
 }
@@ -105,14 +106,15 @@ html {
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background: linear-gradient(
-    rgba(255, 254, 251, 0),
-    rgba(255, 254, 251, 0.8),
-    30%,
-    rgba(255, 254, 251, 1),
-    rgba(255, 254, 251, 0.8) 80%,
-    rgba(255, 254, 251, 0)
-  );
+  background:
+    linear-gradient(
+      rgba(255, 254, 251, 0),
+      rgba(255, 254, 251, 0.8),
+      30%,
+      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 0.8) 80%,
+      rgba(255, 254, 251, 0)
+    );
   display: flex;
   padding: 4rem;
   justify-content: center;
@@ -290,7 +292,9 @@ html {
 .isec__10 {
   margin-left: 68%;
 }
+
 /* intro section */
+
 /* about me section */
 .isec__11__a {
   margin-top: 4%;
@@ -387,13 +391,16 @@ html {
 
   /* specific settings for line 20 */
 }
+
 /* about me section */
+
 /* footer */
 .form {
   display: flex;
   padding-bottom: 10%;
   justify-content: center;
 }
+
 .form__detail {
   position: relative;
   width: 40%;
@@ -415,20 +422,25 @@ html {
   border-radius: 2rem;
   cursor: pointer;
 }
+
 .form input:hover {
   border: var(--coffee-bright) 0.4rem solid;
   padding: 0.6rem;
 }
+
 .form__detail__name {
   width: 48%;
 }
+
 .form__detail__email {
   width: 60%;
 }
+
 .form__detail__mes {
   width: 100%;
   height: 60%;
 }
+
 .form__detail__but {
   color: var(--coffee-white);
   text-decoration: none;
@@ -445,6 +457,7 @@ html {
   margin-top: 4%;
   margin-bottom: 4%;
 }
+
 .form__detail__but:hover {
   background-color: var(--coffee-dark);
 
@@ -458,7 +471,9 @@ html {
 
   /* footer primary button active settings */
 }
+
 /* footer */
+
 /* animation */
 .hide {
   opacity: 0;
@@ -651,4 +666,5 @@ html {
   opacity: 1;
   padding-top: 16rem;
 }
+
 /* animation */
