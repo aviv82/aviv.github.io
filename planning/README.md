@@ -34,4 +34,4 @@ I am a passionate Junior frontend developer
 
 - Sam Bien#6591 on Discord
 
-  ![ Alt text](https://github-readme-streak-stats.herokuapp.com/?user=aviv82&)
+  ![Stats](https://github-readme-streak-stats.herokuapp.com/?user=aviv82&)
