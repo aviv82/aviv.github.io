@@ -111,12 +111,97 @@ function dot() {
   for (var i = 0; i < dot.length; i++) {
     var windowheight = window.innerHeight;
     var dottop = dot[i].getBoundingClientRect().top;
-    var dotpoint = 200;
+    var dotpoint = 60;
 
     if (dottop < windowheight - dotpoint) {
       dot[i].classList.add("dotted");
     } else {
       dot[i].classList.remove("dotted");
+    }
+  }
+}
+window.addEventListener("scroll", boxo);
+
+function boxo() {
+  var boxo = document.querySelectorAll(".boxo");
+
+  for (var i = 0; i < boxo.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxotop = boxo[i].getBoundingClientRect().top;
+    var boxopoint = 80;
+
+    if (boxotop < windowheight - boxopoint) {
+      boxo[i].classList.add("boxero");
+    } else {
+      boxo[i].classList.remove("boxero");
+    }
+  }
+}
+window.addEventListener("scroll", boxi);
+
+function boxi() {
+  var boxi = document.querySelectorAll(".boxi");
+
+  for (var i = 0; i < boxi.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxitop = boxi[i].getBoundingClientRect().top;
+    var boxipoint = 80;
+
+    if (boxitop < windowheight - boxipoint) {
+      boxi[i].classList.add("boxeri");
+    } else {
+      boxi[i].classList.remove("boxeri");
+    }
+  }
+}
+window.addEventListener("scroll", boxs);
+
+function boxs() {
+  var boxs = document.querySelectorAll(".boxs");
+
+  for (var i = 0; i < boxs.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = boxs[i].getBoundingClientRect().top;
+    var boxspoint = 220;
+
+    if (boxstop < windowheight - boxspoint) {
+      boxs[i].classList.add("boxers");
+    } else {
+      boxs[i].classList.remove("boxers");
+    }
+  }
+}
+window.addEventListener("scroll", but);
+
+function but() {
+  var but = document.querySelectorAll(".but");
+
+  for (var i = 0; i < but.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = but[i].getBoundingClientRect().top;
+    var boxspoint = 200;
+
+    if (boxstop < windowheight - boxspoint) {
+      but[i].classList.add("button");
+    } else {
+      but[i].classList.remove("button");
+    }
+  }
+}
+window.addEventListener("scroll", buts);
+
+function buts() {
+  var buts = document.querySelectorAll(".buts");
+
+  for (var i = 0; i < buts.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = buts[i].getBoundingClientRect().top;
+    var boxspoint = 60;
+
+    if (boxstop < windowheight - boxspoint) {
+      buts[i].classList.add("buttons");
+    } else {
+      buts[i].classList.remove("buttons");
     }
   }
 }

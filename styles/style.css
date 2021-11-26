@@ -1,7 +1,7 @@
 :root {
   --poem-font: "Estonia", cursive;
   --paragraph-font: "Libre Baskerville", serif;
-  --coffee-black: rgba(34, 23, 0, 1);
+  --coffee-black: #221700;
   --coffee-dark: rgba(118, 80, 0, 1);
   --coffee-bright: rgba(226, 153, 1, 1);
   --coffee-white: rgba(255, 254, 251, 1);
@@ -29,7 +29,8 @@ html {
     linear-gradient(
       180deg,
       rgba(226, 153, 1, 1),
-      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 1) 22%,
+      rgba(255, 254, 251, 1) 68%,
       rgba(118, 80, 0, 1)
     );
 
@@ -129,10 +130,10 @@ html {
   text-decoration: none;
   background-color: var(--coffee-black);
   font-size: 2rem;
-  padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
   border-radius: 50%;
   border: var(--coffee-black) solid;
   margin-right: 4%;
@@ -166,8 +167,8 @@ html {
   text-decoration: none;
   padding-top: 3.4rem;
   padding-bottom: 3.4rem;
-  padding-left: 0.3rem;
-  padding-right: 0.3rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
   border: var(--coffee-black) solid;
   border-radius: 50%;
 
@@ -395,7 +396,7 @@ html {
 /* about me section */
 
 /* footer */
-.form {
+.footer {
   display: flex;
   padding-bottom: 10%;
   justify-content: center;
@@ -403,14 +404,15 @@ html {
 
 .form__detail {
   position: relative;
-  width: 40%;
+  width: 48%;
 }
 
 .form__detail ::placeholder {
   color: var(--coffee-dark);
+  text-align: center;
 }
 
-.form input {
+.form__detail input {
   background-color: var(--coffee-white);
   margin: 2%;
   appearance: none;
@@ -421,11 +423,6 @@ html {
   font-family: var(--paragraph-font);
   border-radius: 2rem;
   cursor: pointer;
-}
-
-.form input:hover {
-  border: var(--coffee-bright) 0.4rem solid;
-  padding: 0.6rem;
 }
 
 .form__detail__name {
@@ -447,29 +444,46 @@ html {
   font-family: var(--paragraph-font);
   background-color: var(--coffee-black);
   font-size: 2rem;
-  padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
   border-radius: 50%;
   border: var(--coffee-black) solid;
-  margin-left: 44%;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-left: 38%;
+  margin-top: 4rem;
 }
 
 .form__detail__but:hover {
+  transition: none;
   background-color: var(--coffee-dark);
 
   /* footer primary button hover settings */
 }
 
 .form__detail__but:active {
+  transition: none;
   color: var(--coffee-black);
   background-color: var(--coffee-bright);
   border: var(--coffee-bright) solid;
 
   /* footer primary button active settings */
+}
+
+.form__icon {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 12rem;
+  fill: var(--coffee-black);
+}
+
+.form__icon a:hover {
+  fill: var(--coffee-bright);
+}
+
+.form__icon a:active {
+  fill: var(--coffee-white);
 }
 
 /* footer */
@@ -665,6 +679,68 @@ html {
 .dotted {
   opacity: 1;
   padding-top: 16rem;
+}
+
+.boxo {
+  opacity: 0;
+  width: 0%;
+  transition: all 2000ms ease-in-out 1000ms;
+}
+
+.boxero {
+  opacity: 1;
+  width: 48%;
+}
+
+.boxi {
+  opacity: 0;
+  width: 0%;
+  transition: all 2000ms ease-in-out 2000ms;
+}
+
+.boxeri {
+  opacity: 1;
+  width: 62%;
+}
+
+.boxs {
+  opacity: 0;
+  width: 0%;
+  height: 0%;
+  transition: all 2000ms ease-in-out 2000ms;
+}
+
+.boxers {
+  opacity: 1;
+  width: 100%;
+  height: 28%;
+}
+
+.footer input:hover {
+  transition: none;
+  border: var(--coffee-bright) solid 0.4rem;
+}
+
+.but {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 2000ms ease-in-out;
+}
+
+.button {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.buts {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 2000ms ease-in-out;
+}
+
+.buttons {
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 /* animation */

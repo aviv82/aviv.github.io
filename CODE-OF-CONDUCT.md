@@ -14,15 +14,14 @@ diverse, inclusive, and healthy community.
 
 ## My Standards
 
-Examples of behavior that contributes to a positive environment for my
-website include:
+Examples of behavior that contributes to a positive environment for my website
+include:
 
 - Demonstrating empathy and kindness toward other people
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
 - Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-
 
 Examples of unacceptable behavior include:
 
@@ -69,8 +68,8 @@ the consequences for any action they deem in violation of this Code of Conduct:
 
 ### 1. Correction
 
-**Consequence**: Those who violate the rules will be permanently banned from
-the site
+**Consequence**: Those who violate the rules will be permanently banned from the
+site
 
 ### 2. Permanent Ban
 
