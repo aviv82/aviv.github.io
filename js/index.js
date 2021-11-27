@@ -205,3 +205,37 @@ function buts() {
     }
   }
 }
+window.addEventListener("scroll", parent);
+
+function parent() {
+  var parent = document.querySelectorAll(".parent");
+
+  for (var i = 0; i < parent.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = parent[i].getBoundingClientRect().top;
+    var boxspoint = 200;
+
+    if (boxstop < windowheight - boxspoint) {
+      parent[i].classList.add("parents");
+    } else {
+      parent[i].classList.remove("parents");
+    }
+  }
+}
+window.addEventListener("scroll", hat);
+
+function hat() {
+  var hat = document.querySelectorAll(".hat");
+
+  for (var i = 0; i < hat.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = hat[i].getBoundingClientRect().top;
+    var boxspoint = 240;
+
+    if (boxstop < windowheight - boxspoint) {
+      hat[i].classList.add("hats");
+    } else {
+      hat[i].classList.remove("hats");
+    }
+  }
+}
