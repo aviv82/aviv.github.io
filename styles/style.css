@@ -34,7 +34,7 @@ html {
       rgba(118, 80, 0, 1)
     );
 
-  /* setup background gradient */
+  /* setup background gradient for home and portfolio */
 }
 
 /* intro poem */
@@ -488,7 +488,7 @@ html {
 
 /* footer */
 
-/* animation */
+/* home animation */
 .hide {
   opacity: 0;
   transform: translateY(1rem);
@@ -743,4 +743,325 @@ html {
   transform: scale(1.2);
 }
 
-/* animation */
+/* home animation */
+
+/* portfolio page */
+
+/* intro poem */
+.ipoem__text {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 200ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt1 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 600ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt2 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 1800ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt3 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 2400ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt4 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 3000ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt5 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 3600ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt6 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 4200ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt7 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  animation: ipoem-load 4000ms ease-in 4800ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__txt8 {
+  font-family: var(--paragraph-font);
+  font-size: 1.8rem;
+  line-height: 4.6rem;
+  margin-bottom: 4rem;
+  animation: ipoem-load 4000ms ease-in 6000ms;
+
+  /* ^ poem animation settings */
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  /* poem text settings */
+}
+
+.ipoem__md1 {
+  font-size: 4.2rem;
+
+  /* middle poem font size */
+}
+
+.ipoem__lg1 {
+  font-size: 4.8rem;
+
+  /* large poem font size */
+}
+
+.ipoem__th1 {
+  font-size: 5.6rem;
+
+  /* quotations size */
+}
+
+/* intro poem */
+
+/* nav bar */
+
+/* ^ nav bar settings */
+
+.navbar__secd {
+  color: var(--coffee-black);
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  border: var(--coffee-black) solid;
+  border-radius: 50%;
+
+  /* ^ nav bar secondary button settings */
+  animation: nav-bar-load 2000ms ease-out 2000ms;
+  opacity: 0%;
+  scale: 0;
+  animation-fill-mode: forwards;
+
+  /* ^ nav bar secondary button animation settings */
+}
+
+.navbar__secd:hover {
+  background-color: var(--coffee-bright);
+
+  /* nav bar secondary button hover settings */
+}
+
+.navbar__secd:active {
+  color: var(--coffee-white);
+  background-color: var(--coffee-dark);
+  border: var(--coffee-bright) solid;
+
+  /* nav bar secondary button active settings */
+}
+
+@keyframes nav-bar-load {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 100;
+    transform: scale(1);
+  }
+
+  /* ^ nav bar buttons animation keyframes */
+}
+
+/* nav bar */
+
+/* skills section */
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.isec__x {
+  font-size: 180%;
+  margin-right: 6%;
+  padding-bottom: 4%;
+  margin-bottom: 12rem;
+  margin-top: 8rem;
+
+  /* specific settings for line 1 */
+}
+
+.ssec {
+  transform: scale(1.6);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.ssec__orb2 {
+  transform: translateX(2rem) translateY(3rem);
+}
+
+.skill__circ {
+  transform: translateX(0.2rem) translateY(0.4rem) scale(1.2);
+}
+
+.skill__circ1 {
+  transform: translateY(-0.6rem) translateX(0.3rem);
+}
+
+/* skills section */
+
+/* portfolio page */
+
+/* portfolio animation */
+.parent {
+  margin-left: -6%;
+  margin-right: -6%;
+  transform: translateY(1rem);
+  fill: transparent;
+  stroke-dasharray: 44rem;
+  stroke-dashoffset: 44rem;
+  transition: all 3000ms ease-in-out;
+
+  /* animation settings for parenthesis */
+}
+
+.parents {
+  margin-left: 6%;
+  margin-right: 6%;
+  transform: translateY(0);
+  stroke-dashoffset: 0;
+  fill: var(--coffee-black);
+
+  /* animation settings for parenthesis */
+}
+
+.hat {
+  transform: translateX(-2.8rem);
+  transition: all 3000ms ease-in-out 800ms;
+}
+
+.hats {
+  transform: translateX(-2.8rem);
+}
+
+.hat path:nth-child(1) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1200ms;
+}
+
+.hats path:nth-child(1) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hat path:nth-child(2) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1600ms;
+}
+
+.hats path:nth-child(2) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hat path:nth-child(3) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2000ms;
+}
+
+.hats path:nth-child(3) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hat path:nth-child(4) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2400ms;
+}
+
+.hats path:nth-child(4) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hat circle {
+  opacity: 0;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2200ms;
+}
+
+.hats circle {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+
+/* portfolio animation */
