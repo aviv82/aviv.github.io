@@ -25,14 +25,13 @@ html {
 }
 
 .home {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(226, 153, 1, 1),
-      rgba(255, 254, 251, 1) 22%,
-      rgba(255, 254, 251, 1) 68%,
-      rgba(118, 80, 0, 1)
-    );
+  background: linear-gradient(
+    180deg,
+    rgba(226, 153, 1, 1),
+    rgba(255, 254, 251, 1) 22%,
+    rgba(255, 254, 251, 1) 68%,
+    rgba(118, 80, 0, 1)
+  );
 
   /* setup background gradient for home and portfolio */
 }
@@ -107,15 +106,14 @@ html {
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background:
-    linear-gradient(
-      rgba(255, 254, 251, 0),
-      rgba(255, 254, 251, 0.8),
-      30%,
-      rgba(255, 254, 251, 1),
-      rgba(255, 254, 251, 0.8) 80%,
-      rgba(255, 254, 251, 0)
-    );
+  background: linear-gradient(
+    rgba(255, 254, 251, 0),
+    rgba(255, 254, 251, 0.8),
+    30%,
+    rgba(255, 254, 251, 1),
+    rgba(255, 254, 251, 0.8) 80%,
+    rgba(255, 254, 251, 0)
+  );
   display: flex;
   padding: 4rem;
   justify-content: center;
@@ -957,9 +955,11 @@ html {
 }
 
 .ssec__orb2 {
-  transform: translateX(2rem) translateY(3rem);
+  transform: translateY(2.4rem) translateX(4rem);
 }
-
+.ssec__orb3 {
+  transform: translateY(8.6rem) translateX(-8.4rem);
+}
 .skill__circ {
   transform: translateX(0.2rem) translateY(0.4rem) scale(1.2);
 }
@@ -974,8 +974,8 @@ html {
 
 /* portfolio animation */
 .parent {
-  margin-left: -6%;
-  margin-right: -6%;
+  margin-left: -8rem;
+  margin-right: -8rem;
   transform: translateY(1rem);
   fill: transparent;
   stroke-dasharray: 44rem;
@@ -986,22 +986,13 @@ html {
 }
 
 .parents {
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 0;
+  margin-right: 0;
   transform: translateY(0);
   stroke-dashoffset: 0;
   fill: var(--coffee-black);
 
   /* animation settings for parenthesis */
-}
-
-.hat {
-  transform: translateX(-2.8rem);
-  transition: all 3000ms ease-in-out 800ms;
-}
-
-.hats {
-  transform: translateX(-2.8rem);
 }
 
 .hat path:nth-child(1) {
@@ -1064,4 +1055,87 @@ html {
   stroke-dashoffset: 0;
 }
 
+.hot path:nth-child(1) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1200ms;
+}
+
+.hots path:nth-child(1) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hot path:nth-child(2) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1600ms;
+}
+
+.hots path:nth-child(2) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hot path:nth-child(3) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2000ms;
+}
+
+.hots path:nth-child(3) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hot circle {
+  opacity: 0;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2200ms;
+}
+
+.hots circle {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+
+.hut path:nth-child(1) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1200ms;
+}
+
+.huts path:nth-child(1) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hut path:nth-child(2) {
+  fill: transparent;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 1600ms;
+}
+
+.huts path:nth-child(2) {
+  fill: var(--coffee-black);
+  stroke-dashoffset: 0;
+}
+
+.hut circle {
+  opacity: 0;
+  stroke-dasharray: 20rem;
+  stroke-dashoffset: 20rem;
+  transition: all 4000ms ease-in-out 2200ms;
+}
+
+.huts circle {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
 /* portfolio animation */

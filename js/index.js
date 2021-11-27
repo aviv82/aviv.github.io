@@ -239,3 +239,37 @@ function hat() {
     }
   }
 }
+window.addEventListener("scroll", hot);
+
+function hot() {
+  var hot = document.querySelectorAll(".hot");
+
+  for (var i = 0; i < hot.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = hot[i].getBoundingClientRect().top;
+    var boxspoint = 240;
+
+    if (boxstop < windowheight - boxspoint) {
+      hot[i].classList.add("hots");
+    } else {
+      hot[i].classList.remove("hots");
+    }
+  }
+}
+window.addEventListener("scroll", hut);
+
+function hut() {
+  var hut = document.querySelectorAll(".hut");
+
+  for (var i = 0; i < hut.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = hut[i].getBoundingClientRect().top;
+    var boxspoint = 200;
+
+    if (boxstop < windowheight - boxspoint) {
+      hut[i].classList.add("huts");
+    } else {
+      hut[i].classList.remove("huts");
+    }
+  }
+}
