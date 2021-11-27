@@ -25,15 +25,16 @@ html {
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1) 22%,
-    rgba(255, 254, 251, 1) 68%,
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1) 22%,
+      rgba(255, 254, 251, 1) 68%,
+      rgba(118, 80, 0, 1)
+    );
 
-  /* setup background gradient for home and portfolio*/
+  /* setup background gradient for home and portfolio */
 }
 
 /* intro poem */
@@ -106,14 +107,15 @@ html {
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background: linear-gradient(
-    rgba(255, 254, 251, 0),
-    rgba(255, 254, 251, 0.8),
-    30%,
-    rgba(255, 254, 251, 1),
-    rgba(255, 254, 251, 0.8) 80%,
-    rgba(255, 254, 251, 0)
-  );
+  background:
+    linear-gradient(
+      rgba(255, 254, 251, 0),
+      rgba(255, 254, 251, 0.8),
+      30%,
+      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 0.8) 80%,
+      rgba(255, 254, 251, 0)
+    );
   display: flex;
   padding: 4rem;
   justify-content: center;
@@ -742,7 +744,9 @@ html {
 }
 
 /* home animation */
+
 /* portfolio page */
+
 /* intro poem */
 .ipoem__text {
   font-size: 3.2rem;
@@ -767,6 +771,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt2 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -778,6 +783,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt3 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -789,6 +795,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt4 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -800,6 +807,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt5 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -811,6 +819,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt6 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -822,6 +831,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt7 {
   font-size: 3.2rem;
   line-height: 3.6rem;
@@ -833,6 +843,7 @@ html {
 
   /* poem text settings */
 }
+
 .ipoem__txt8 {
   font-family: var(--paragraph-font);
   font-size: 1.8rem;
@@ -918,13 +929,16 @@ html {
 
   /* ^ nav bar buttons animation keyframes */
 }
+
 /* nav bar */
+
 /* skills section */
 .skill {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 .isec__x {
   font-size: 180%;
   margin-right: 6%;
@@ -934,18 +948,22 @@ html {
 
   /* specific settings for line 1 */
 }
+
 .ssec {
   transform: scale(1.6);
   display: flex;
   justify-content: center;
   margin-bottom: 8rem;
 }
+
 .ssec__orb2 {
   transform: translateX(2rem) translateY(3rem);
 }
+
 .skill__circ {
   transform: translateX(0.2rem) translateY(0.4rem) scale(1.2);
 }
+
 .skill__circ1 {
   transform: translateY(-0.6rem) translateX(0.3rem);
 }
@@ -953,6 +971,7 @@ html {
 /* skills section */
 
 /* portfolio page */
+
 /* portfolio animation */
 .parent {
   margin-left: -6%;
@@ -962,6 +981,7 @@ html {
   stroke-dasharray: 44rem;
   stroke-dashoffset: 44rem;
   transition: all 3000ms ease-in-out;
+
   /* animation settings for parenthesis */
 }
 
@@ -971,6 +991,7 @@ html {
   transform: translateY(0);
   stroke-dashoffset: 0;
   fill: var(--coffee-black);
+
   /* animation settings for parenthesis */
 }
 
@@ -1028,9 +1049,9 @@ html {
 
 .hats path:nth-child(4) {
   fill: var(--coffee-black);
-
   stroke-dashoffset: 0;
 }
+
 .hat circle {
   opacity: 0;
   stroke-dasharray: 20rem;
