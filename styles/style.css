@@ -25,13 +25,14 @@ html {
 }
 
 .home {
-  background: linear-gradient(
-    180deg,
-    rgba(226, 153, 1, 1),
-    rgba(255, 254, 251, 1) 22%,
-    rgba(255, 254, 251, 1) 68%,
-    rgba(118, 80, 0, 1)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(226, 153, 1, 1),
+      rgba(255, 254, 251, 1) 22%,
+      rgba(255, 254, 251, 1) 68%,
+      rgba(118, 80, 0, 1)
+    );
 
   /* setup background gradient for home and portfolio */
 }
@@ -106,14 +107,15 @@ html {
     rgba(255, 254, 251, 0) 64%
   ); */
   z-index: 2;
-  background: linear-gradient(
-    rgba(255, 254, 251, 0),
-    rgba(255, 254, 251, 0.8),
-    30%,
-    rgba(255, 254, 251, 1),
-    rgba(255, 254, 251, 0.8) 80%,
-    rgba(255, 254, 251, 0)
-  );
+  background:
+    linear-gradient(
+      rgba(255, 254, 251, 0),
+      rgba(255, 254, 251, 0.8),
+      30%,
+      rgba(255, 254, 251, 1),
+      rgba(255, 254, 251, 0.8) 80%,
+      rgba(255, 254, 251, 0)
+    );
   display: flex;
   padding: 4rem;
   justify-content: center;
@@ -943,21 +945,27 @@ html {
   padding-bottom: 4%;
   margin-bottom: 12rem;
   margin-top: 8rem;
+
   /* specific settings for line 1 */
 }
+
 .isec__t {
   font-size: 180%;
   margin-top: 8rem;
   margin-left: 34%;
+
   /* specific settings for line 1 */
 }
+
 .isec__o {
   font-size: 212%;
   margin-right: 6%;
   padding-bottom: 4%;
   margin-bottom: 12rem;
+
   /* specific settings for line 1 */
 }
+
 .ssec {
   transform: scale(1.6);
   display: flex;
@@ -986,6 +994,7 @@ html {
   display: flex;
   justify-content: center;
 }
+
 .vid__b {
   transform: scale(1.4);
 }
@@ -1158,15 +1167,18 @@ html {
   opacity: 1;
   stroke-dashoffset: 0;
 }
+
 .bar {
   opacity: 0;
   stroke-dashoffset: 20rem;
   stroke-dasharray: 20rem;
   transition: all 4000ms ease-in-out 2200ms;
 }
+
 .bars {
   opacity: 1;
   stroke-dasharray: 8, 8;
   stroke-dashoffset: 0;
 }
+
 /* portfolio animation */
