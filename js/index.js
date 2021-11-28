@@ -162,7 +162,7 @@ function boxs() {
   for (var i = 0; i < boxs.length; i++) {
     var windowheight = window.innerHeight;
     var boxstop = boxs[i].getBoundingClientRect().top;
-    var boxspoint = 220;
+    var boxspoint = 180;
 
     if (boxstop < windowheight - boxspoint) {
       boxs[i].classList.add("boxers");
@@ -179,7 +179,7 @@ function but() {
   for (var i = 0; i < but.length; i++) {
     var windowheight = window.innerHeight;
     var boxstop = but[i].getBoundingClientRect().top;
-    var boxspoint = 200;
+    var boxspoint = 120;
 
     if (boxstop < windowheight - boxspoint) {
       but[i].classList.add("button");
@@ -196,7 +196,7 @@ function buts() {
   for (var i = 0; i < buts.length; i++) {
     var windowheight = window.innerHeight;
     var boxstop = buts[i].getBoundingClientRect().top;
-    var boxspoint = 60;
+    var boxspoint = 40;
 
     if (boxstop < windowheight - boxspoint) {
       buts[i].classList.add("buttons");
@@ -270,6 +270,23 @@ function hut() {
       hut[i].classList.add("huts");
     } else {
       hut[i].classList.remove("huts");
+    }
+  }
+}
+window.addEventListener("scroll", bar);
+
+function bar() {
+  var bar = document.querySelectorAll(".bar");
+
+  for (var i = 0; i < bar.length; i++) {
+    var windowheight = window.innerHeight;
+    var boxstop = bar[i].getBoundingClientRect().top;
+    var boxspoint = 200;
+
+    if (boxstop < windowheight - boxspoint) {
+      bar[i].classList.add("bars");
+    } else {
+      bar[i].classList.remove("bars");
     }
   }
 }

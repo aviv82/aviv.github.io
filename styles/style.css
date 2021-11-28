@@ -949,6 +949,23 @@ html {
   /* specific settings for line 1 */
 }
 
+.isec__t {
+  font-size: 180%;
+  margin-top: 8rem;
+  margin-left: 34%;
+
+  /* specific settings for line 1 */
+}
+
+.isec__o {
+  font-size: 212%;
+  margin-right: 6%;
+  padding-bottom: 4%;
+  margin-bottom: 12rem;
+
+  /* specific settings for line 1 */
+}
+
 .ssec {
   transform: scale(1.6);
   display: flex;
@@ -973,6 +990,14 @@ html {
 }
 
 /* skills section */
+.vid {
+  display: flex;
+  justify-content: center;
+}
+
+.vid__b {
+  transform: scale(1.4);
+}
 
 /* portfolio page */
 
@@ -1140,6 +1165,19 @@ html {
 
 .huts circle {
   opacity: 1;
+  stroke-dashoffset: 0;
+}
+
+.bar {
+  opacity: 0;
+  stroke-dashoffset: 20rem;
+  stroke-dasharray: 20rem;
+  transition: all 4000ms ease-in-out 2200ms;
+}
+
+.bars {
+  opacity: 1;
+  stroke-dasharray: 8, 8;
   stroke-dashoffset: 0;
 }
 
