@@ -1,3 +1,5 @@
+'use strict'
+
 window.addEventListener("scroll", reveal);
 
 function reveal() {
